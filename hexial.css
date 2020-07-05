@@ -1,0 +1,587 @@
+/*Start Global Rulez*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 1633px;
+}
+
+/*End Global Rulez*/
+
+/*Start Header*/
+
+.header {
+    width: 100%;
+    background-color: #323232;
+    height: 4em;
+}
+
+.header .navbar {
+    text-align: center;
+    padding: 1px;
+    height: 100%;
+}
+
+.special {
+    position: relative
+}
+
+.special:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-width: 2em 3.2em 0 3.2em;
+    border-style: solid;
+    border-color: #323232 #2490ff00;
+    position: absolute;
+    bottom: -45%;
+    /*    left: 667px;*/
+}
+
+
+
+.header ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    /*    overflow: hidden;*/
+    background-color: #333;
+    height: 100%;
+}
+
+
+.header ul li {
+    display: inline-block;
+    width: 11%;
+    height: 100%;
+}
+
+.header ul li a {
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    padding: 8px 0px;
+    text-decoration: none
+}
+
+.active {
+    color: #307969;
+}
+
+/*End Header*/
+/*Start Gallery*/
+
+.gallery {
+    width: 100%;
+    height: 39em;
+
+}
+
+
+.part {
+    display: inline-block;
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+
+.container-part {
+    margin: 1em;
+    text-align: center;
+}
+
+.hexa {
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+/*End Gallery*/
+/*About Me*/
+.about-me {
+    width: 100%;
+    height: 30em;
+    background-color: #2eb398;
+}
+
+.part4 {
+    margin-top: 15%;
+    width: 19%;
+    height: 12em;
+    float: left;
+
+}
+
+.content {
+    width: 70%;
+    margin-top: 7%;
+    float: right;
+
+}
+
+.content h1 {
+    color: #cff8f0;
+    font-family: 'Raleway', sans-serif;
+    text-align: -webkit-left;
+}
+
+.h2 {
+    margin-top: 0%;
+    color: #25937c;
+    font-weight: 100;
+    text-align: -webkit-left;
+}
+
+.content p {
+    color: #d7fcf5;
+    line-height: 1.6;
+
+}
+
+.content ul {
+    list-style: none;
+    text-align: right;
+    ;
+}
+
+.content ul li {
+    width: 26px;
+    height: 19px;
+    display: inline-block;
+    color: #a4dbd4;
+}
+
+/*End About Me*/
+/*Start footer*/
+.footer {
+    width: 100%;
+    height: 38em;
+    background-color: #323232;
+
+}
+
+.footer .input {
+    width: 60%;
+    height: 20%;
+    float: left;
+}
+
+.footer .input h1 {
+    color: #e0e0e0;
+    margin-top: 12%;
+}
+
+.footer .input p {
+    color: #e0e0e0;
+    margin-top: 0;
+    margin-left: 6px;
+}
+
+.footer .input input {
+    width: 100%;
+    height: 30px;
+    background-color: #454545;
+    color: #e0e0e0;
+    border-style: none;
+    margin-bottom: 4%;
+}
+
+.footer .input textarea {
+    width: 100%;
+    height: 150px;
+    background-color: #454545;
+    color: #e0e0e0;
+    border-style: none;
+    margin-bottom: 4%;
+}
+
+.footer .input button {
+    float: right;
+    background-color: #2eb398;
+    border-style: none;
+    padding: 2%;
+    width: 16%;
+    color: #e0e0e0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.footer .data {
+    width: 36%;
+    height: 20%;
+    float: right;
+    margin-top: 13%;
+}
+
+.footer .data p {
+    color: #e0e0e0;
+    width: 85%;
+    line-height: 1.5;
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+
+.footer .data p:first-of-type {
+    margin-bottom: 20%;
+}
+
+.footer .data i {
+    color: #2eb398;
+}
+
+/*End Footer*/
+/*Start My Framework*/
+
+.container {
+    margin: auto;
+    width: 75%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.h1 {
+    font-size: 42px;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.responsive-paragraph {
+    line-height: 1.8;
+
+}
+
+.responsive-image {
+    width: 100%;
+}
+
+.classic-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img-thumbnail {
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+}
+
+/*End My Framework*/
+/*Extra Small devices (portrait tablets and Extra small phones, 320px and up)*/
+
+@media(min-width:320px) and (max-width:374px) {
+
+    /*Start Header*/
+
+    .header {
+        height: 3em !important;
+    }
+
+
+
+    .header ul li {
+
+        width: 18% !important;
+    }
+
+
+    /*End Header*/
+    /* gallery*/
+    .gallery {
+        height: 20em !important;
+    }
+
+    .part {
+        width: 32% !important;
+
+    }
+
+    .part .hexa img {
+        border-style: none !important;
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    /*gallery*/
+
+    /*About me*/
+    .about-me .part4 {
+        width: 42% !important;
+        height: 5em !important;
+
+
+    }
+
+    .about-me .part4 img {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .content p {
+        color: #d7fcf5;
+        line-height: 1.6;
+        font-size: 14px;
+
+        /*About me*/
+    }
+
+    /* footer*/
+    .footer .input h1 {
+        font-size: 38px;
+    }
+
+    .footer .input p {
+        font-size: 12px;
+    }
+
+    /*footer*/
+}
+
+/* Small devices (portrait tablets and small phones, 370px and 375)*/
+@media(min-width:370px) and (max-width:375px) {
+
+    .header {
+        height: 3em !important;
+    }
+
+    .header ul li {
+        width: 14% !important;
+
+    }
+
+    .about-me .part4 img {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .about-me .part4 {
+        width: 42%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 767px and up) 
+
+/*Mobile & Tablet Rules*/
+/*Start Header*/
+@media(max-width:767px) {
+
+    .header {
+        height: 3em !important;
+    }
+
+
+
+    .special:after {
+        border-width: 2em 2.2em 0 2.2em !important;
+    }
+
+
+
+
+    .header ul li {
+        display: inline-block;
+        width: 12%;
+        font-size: 10px;
+
+    }
+
+    /*End Header*/
+    /* gallery*/
+
+    .gallery {
+        height: 29em;
+    }
+
+    .container-part .part:last-of-type {
+        display: none;
+    }
+
+    .container-part .part:nth-of-type(3) {
+        display: none;
+    }
+
+    .part {
+        width: 32%;
+
+    }
+
+    .part .hexa img {
+        border-style: none;
+        width: 120px;
+        height: 120px;
+    }
+
+    /*gallery*/
+    /*About me*/
+    .about-me {
+        height: 40em;
+    }
+
+    .about-me .part4 {
+        width: 40%;
+        margin: auto;
+        float: none;
+        height: 7em;
+    }
+
+    .about-me .part4 img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .about-me .content {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .about-me .content h1 {
+        text-align: center;
+    }
+
+    .about-me .content h2 {
+        text-align: center;
+    }
+
+
+    /*About me*/
+    /*footer*/
+
+    .footer {
+        height: 44em;
+    }
+
+    .footer .input {
+        width: 100%;
+        height: 20%;
+        float: left;
+    }
+
+    .footer .data {
+        width: 100%;
+
+        /*footer*/
+
+    }
+
+    .footer .data p {
+        line-height: 1;
+    }
+
+    .footer .data p:first-of-type {
+        margin-bottom: 14%;
+
+    }
+
+    .footer .input button {
+        width: 25%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media(min-width: 768px) and (max-width:991px) {
+
+    /* Header*/
+
+    .special:after {
+        border-width: 2em 2.3em 0 2.3em !important;
+    }
+
+    /*Header*/
+    /*gallery*/
+    .container-part {
+        margin: 2em;
+        text-align: center;
+    }
+
+    .container-part .part:last-of-type {
+        display: none;
+    }
+
+    .part {
+        width: 23%;
+    }
+
+    /*gallery*/
+    /* About me*/
+    .about-me {
+        height: 36em;
+    }
+
+    .about-me .part4 {
+        width: 35%;
+        margin: auto;
+        float: none;
+    }
+
+    .about-me .content {
+        width: 99%;
+        float: none;
+        margin: auto
+    }
+
+    .about-me .content h1 {
+        text-align: center;
+    }
+
+    .about-me .content h2 {
+        text-align: center;
+    }
+
+    /*About me */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media(min-width:992px) and (max-width:1199px) {
+    .header {
+        height: 4em;
+    }
+
+
+    .header .navbar ul li:after {
+        border-width: 2em 3.05em 0 3.05em;
+    }
+
+
+    .part {
+        width: 17% !important;
+
+    }
+
+    .about-me .part4 {
+        margin-top: 15%;
+        width: 25% !important;
+        height: 12em;
+        float: left;
+    }
+}
+
+
